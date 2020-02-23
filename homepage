@@ -18,15 +18,18 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 <!-- Navbar -->
 <div class="w3-top">
   <div class="w3-bar w3-red w3-card w3-left-align w3-large">
-    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-red-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     <a href="HomePage.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
     <a href="Project.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Project</a>
   </div>
+ </div>
 
 <!-- Header -->
-<header class="w3-container w3-red w3-center" style="padding:128px 16px">
-  <h1 class="w3-margin w3-jumbo">Hacklytics 2020: Change the World</h1>
-  <p class="w3-xlarge">Website by Vera, Keshav, Alvin, and Razeen</p>
+<header class="w3-container w3-red w3-center" style="padding:128px 10px">
+  <h1 class="w3-margin w3-jumbo"> Data Based Banking</h1>
+  <img src="Logo.png" class="w3-circle" alt="Image" height="100" width="100"/>
+  <p class="w3-xlarge">Project by Vera, Keshav, Alvin, and Razeen</p>
+  <a href="Project.html"</a>
   <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Our Project</button>
   
 </header>
@@ -36,9 +39,15 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   <div class="w3-content">
     <div class="w3-twothird">
       <h1>Project Description</h1>
-      <h5>The main goals of this project is to:
-	  1) display CapitalOne dataset and identify relationships within the data via data visualization
-	  2) take predictive measures to determine areas in need of CapitalOne ATM service</h5>
+	  <h3>Inspiration</h3>
+	  <h5>We wanted to provide a way for businesses to determine where to invest resources, place new locations, and find new customers.</h5>
+	  <h3>Goal</h3>
+	  <h5>Predit and visualize the customer base with Machine Learning and custom, interactive data visualization</h5>
+	  <h3>What It Does</h3>
+	  <h5>We used Capital One's banking API and the Google Geolocation API to 
+	  predict new locations for banks and ATMs based on existing customer, bank, and ATM data. 
+	  We also built a custom, interactive data visualization software so companies could learn more about their customers.</h5>
+	  
     </div>
   </div>
 </div>
